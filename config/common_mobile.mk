@@ -1,4 +1,4 @@
-X# Inherit common mobile Awaken stuff
+# Inherit common mobile Awaken stuff
 $(call inherit-product, vendor/awaken/config/common.mk)
 
 
