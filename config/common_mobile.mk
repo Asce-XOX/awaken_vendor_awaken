@@ -1,10 +1,6 @@
-# Inherit common mobile Awaken stuff
+X# Inherit common mobile Awaken stuff
 $(call inherit-product, vendor/awaken/config/common.mk)
 
-ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
-PRODUCT_PACKAGES += \
-    AudioFX
-endif
 
 # Camera
 ifneq ($(PRODUCT_NO_CAMERA),true)
